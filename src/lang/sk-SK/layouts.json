@@ -1,41 +1,41 @@
 {
   "layouts": {
     "calendar": {
-      "calendar": "Calendar",
-      "fields": "Sloupce",
-      "today": "today",
-      "events": "Events",
-      "moreEvents": "and {amount} more...",
-      "noEvents": "no events yet!",
-      "date": "Datum",
-      "datetime": "Datetime",
-      "time": "Time",
-      "title": "Title",
-      "color": "Barva"
+      "calendar": "Kalendár",
+      "fields": "Stĺpce",
+      "today": "dnes",
+      "events": "Udalosti",
+      "moreEvents": "a {amount} ďalšie...",
+      "noEvents": "zatiaľ nie sú k dispozícii žiadne udalosti!",
+      "date": "Dátum",
+      "datetime": "Dátum a čas",
+      "time": "Čas",
+      "title": "Nadpis",
+      "color": "Farba"
     },
     "cards": {
-      "cards": "Cards",
-      "title": "Title",
-      "subtitle": "Subtitle",
-      "src": "Image Source",
-      "content": "Body Content",
-      "fit": "Fit"
+      "cards": "Karty",
+      "title": "Nadpis",
+      "subtitle": "Podnadpis",
+      "src": "Zdroj obrázku",
+      "content": "Obsah",
+      "fit": "Nastaviť automaticky"
     },
     "tabular": {
-      "tabular": "Table",
-      "fields": "Sloupce"
+      "tabular": "Tabuľka",
+      "fields": "Stĺpce"
     },
     "timeline": {
-      "timeline": "Timeline",
-      "fields": "Sloupce",
-      "today": "today",
-      "events": "Events",
-      "moreEvents": "and {amount} more...",
-      "noEvents": "no events yet!",
-      "date": "Datum",
-      "content": "Content",
-      "title": "Title",
-      "color": "Barva"
+      "timeline": "Časová os",
+      "fields": "Stĺpce",
+      "today": "dnes",
+      "events": "Udalosti",
+      "moreEvents": "a {amount} ďalšie...",
+      "noEvents": "zatiaľ nie sú k dispozícii žiadne udalosti!",
+      "date": "Dátum",
+      "content": "Obsah",
+      "title": "Titulok",
+      "color": "Farba"
     }
   }
 }
