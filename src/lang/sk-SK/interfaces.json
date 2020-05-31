@@ -1,43 +1,43 @@
 {
 	"interfaces": {
 		"2fa-secret": {
-			"2fa-secret": "Tajný 2FA"
+			"2fa-secret": "2FA Secret"
 		},
 		"button-group": {
-			"button_group": "Skupina tlačítek",
-			"choices": "Volby",
-			"choices_comment": "Zadejte hodnoty JSON s uloženou hodnotou a zobrazeným textem.",
-			"theme": "Šablona rozhraní",
+			"button_group": "Button Group",
+			"choices": "Choices",
+			"choices_comment": "Enter JSON key value pairs with the saved value and text displayed.",
+			"theme": "Interface Theme",
 			"theme_comment": "Set the theme of the interface if supported",
-			"value": "Hodnota",
+			"value": "Value",
 			"flight": "Flight",
 			"cruise": "Cruise",
-			"run": "Spustit",
+			"run": "Run",
 			"bus": "Bus",
 			"bike": "Bike",
 			"train": "Train",
 			"car": "Car",
-			"other": "Další"
+			"other": "Other"
 		},
 		"calendar": {
 			"calendar": "Calendar",
 			"min": "Minimum Date",
-			"min_comment": "Minimální datum, které může uživatel vybrat",
-			"max": "Maximální datum",
-			"max_comment": "Maximální datum, které může uživatel vybrat",
-			"formatting": "Formát data",
+			"min_comment": "Minimum date that can be chosen by the user",
+			"max": "Maximum Date",
+			"max_comment": "Maximum date that can be chosen by the user",
+			"formatting": "Date Format",
 			"formatting_comment": "Follows [Unicode Technical Standard](https://date-fns.org/v2.8.1/docs/format). If left blank, a relative date will be used."
 		},
 		"checkboxes": {
 			"checkboxes": "Checkboxes",
-			"choices": "Volby",
-			"choices_comment": "Zadejte hodnoty JSON s uloženou hodnotou a zobrazeným textem.",
+			"choices": "Choices",
+			"choices_comment": "Enter JSON key value pairs with the saved value and text displayed.",
 			"wrap": "Wrap with Delimiter",
 			"wrap_comment": "Wrap the saved value in a delimiter (improves searchability).",
 			"formatting": "Show display text",
 			"formatting_comment": "Render the values as the display values",
 			"display_text": "Display Text",
-			"value": "Hodnota",
+			"value": "Value",
 			"option": "Option",
 			"single": "Single Column",
 			"single_comment": "Display Checkboxes in single column",
@@ -61,40 +61,40 @@
 			"code": "Code",
 			"template": "Template",
 			"template_comment": "Provide a template the user can use to get started with",
-			"language": "Jazyk",
-			"language_comment": "Nastavte programovací jazyk, který chcete použít",
-			"lineNumber": "Číslo řádku",
+			"language": "Language",
+			"language_comment": "Set the programming language to use",
+			"lineNumber": "Line Number",
 			"lineNumber_comment": "Show line numbers",
-			"loc": "Žádné řádky {lang} | Jeden řádek z {lang} | {count} řádků z {lang}",
+			"loc": "No lines of {lang} | One line of {lang} | {count} lines of {lang}",
 			"fill_template": "Fill with Template"
 		},
 		"collections": {
-			"collections": "Kategorie",
+			"collections": "Collections",
 			"placeholder": "Placeholder",
 			"placeholder_comment": "Static text that shown before a value is selected",
 			"placeholder_default": "Choose a collection...",
 			"option": "Option",
-			"include_system": "Zahrnout systém",
-			"include_system_comment": "Zahrnout do možností systémové kolekce"
+			"include_system": "Include System",
+			"include_system_comment": "Include system collections in the options"
 		},
 		"color": {
-			"color": "Barva",
-			"format": "Výstupní formát",
-			"format_comment": "V jakém datovém formátu chcete uložit hodnotu",
-			"palette": "Paleta",
+			"color": "Color",
+			"format": "Output Format",
+			"format_comment": "In what data format to save the value",
+			"palette": "Palette",
 			"palette_comment": "Add color options as hex values",
-			"palette_only": "Pouze paleta",
+			"palette_only": "Palette Only",
 			"palette_only_comment": "Only allow the user to pick from the palette"
 		},
 		"color-palette": {
-			"color-picker": "Výběr barvy"
+			"color-picker": "Color Picker"
 		},
 		"date": {
-			"date": "Datum",
+			"date": "Date",
 			"min": "Minimum date",
-			"min_comment": "Minimální datum, které může uživatel vybrat",
+			"min_comment": "Minimum date that can be chosen by the user",
 			"max": "Maximum date",
-			"max_comment": "Maximální datum, které může uživatel vybrat",
+			"max_comment": "Maximum date that can be chosen by the user",
 			"localized": "Localized",
 			"localized_comment": "Show the date localized in the output",
 			"relative": "Show relative date",
@@ -156,22 +156,22 @@
 		},
 		"dropdown": {
 			"dropdown": "Dropdown",
-			"choices": "Volby",
-			"choices_comment": "Zadejte hodnoty JSON s uloženou hodnotou a zobrazeným textem.",
+			"choices": "Choices",
+			"choices_comment": "Enter JSON key value pairs with the saved value and text displayed.",
 			"placeholder": "Placeholder",
 			"placeholder_comment": "Static text that shown before a value is selected",
 			"option": "Option",
 			"formatting": "Show display text",
 			"formatting_comment": "Render the values as the display values",
 			"placeholder_default": "Choose an option...",
-			"icon": "Ikona",
+			"icon": "Icon",
 			"icon_comment": "Choose an optional icon to display on the left of the input",
 			"options_invalid": "The JSON options provided for the dropdown are invalid:",
 			"allow_other": "Allow Other",
 			"allow_other_comment": "Allow the user to add their own value"
 		},
 		"file": {
-			"file": "Soubor",
+			"file": "File",
 			"view_type": "View Type",
 			"view_type_comment": "Select in what way you want to view the files",
 			"view_options": "View Options",
@@ -204,7 +204,7 @@
 			"crop_preview": "Crop Preview Images"
 		},
 		"files": {
-			"files": "Soubory",
+			"files": "Files",
 			"visible_columns": "Visible Columns",
 			"visible_columns_comment": "Add a CSV of columns you want to display as preview",
 			"preferences": "Listing View Preferences",
@@ -240,7 +240,7 @@
 			"secured": "Value Secured"
 		},
 		"icon": {
-			"icon": "Ikona",
+			"icon": "Icon",
 			"search_placeholder": "Search for an icon..."
 		},
 		"interface-options": {
@@ -256,7 +256,7 @@
 			"placeholder-default": "Enter a field name..."
 		},
 		"interfaces": {
-			"interfaces": "Rozhraní",
+			"interfaces": "Interfaces",
 			"placeholder": "Placeholder",
 			"placeholder_comment": "Static text that shown before a value is selected",
 			"placeholder_default": "Choose an interface",
@@ -277,7 +277,7 @@
 			"value_options": "Key Interface Options"
 		},
 		"language": {
-			"input": "Jazyk",
+			"input": "Language",
 			"select_language": "Select a language...",
 			"limit": "Limit to Directus Availability",
 			"limit_comment": "Only show languages that are available as translations in Directus"
@@ -310,7 +310,7 @@
 			"preferences": "Listing View Preferences",
 			"preferences_comment": "Set what options to use for the modal",
 			"relationship_not_setup": "The relationship hasn't been configured correctly",
-			"icon": "Ikona",
+			"icon": "Icon",
 			"icon_comment": "Choose an optional icon to display on the left of the input",
 			"select_one": "Select one",
 			"threshold": "Threshold",
@@ -319,22 +319,22 @@
 		"map": {
 			"map": "Map",
 			"choices": "choices",
-			"choices_comment": "Zadejte hodnoty JSON s uloženou hodnotou a zobrazeným textem.",
-			"theme": "Šablona rozhraní",
+			"choices_comment": "Enter JSON key value pairs with the saved value and text displayed.",
+			"theme": "Interface Theme",
 			"theme_comment": "Set the theme of the interface if supported",
-			"value": "Hodnota",
+			"value": "Value",
 			"map_lat": "Default Latitude",
 			"map_lat_comment": "Map will be centered at this latitude",
 			"map_lng": "Default Longitude",
 			"map_lng_comment": "Map will be centered at this longitude",
-			"height": "Výška",
+			"height": "Height",
 			"default_zoom": "Default Zoom",
 			"default_zoom_comment": "Default zoom level of the map",
 			"max_zoom": "Max Zoom",
 			"max_zoom_comment": "Maximum zoom allowed in the map",
 			"no_location": "No location found",
 			"user_location_error_blocked": "You've disabled the location access. Kindly enable it from the browser addressbar to auto detect your location.",
-			"user_location_error": "Při pokusu o získání vaší polohy došlo k chybě. Zkuste to prosím znovu.",
+			"user_location_error": "There was an error while trying to get your location. Please try again.",
 			"address_to_code": "Address Input",
 			"address_to_code_comment": "Add an input field to automatically get the geocodes from an address. Uses <a href=\"https://wiki.openstreetmap.org/wiki/Nominatim\">Nominatim</a>. Please check their usage policy.",
 			"address_to_code_error": "No geocode found for this address",
@@ -357,7 +357,7 @@
 		},
 		"multiselect": {
 			"multiselect": "Multi-Select",
-			"choices": "Volby",
+			"choices": "Choices",
 			"choices_comment": "Enter JSON key value pairs with the saved value and displayed text",
 			"placeholder": "Placeholder",
 			"placeholder_comment": "Enter placeholder text",
@@ -370,7 +370,7 @@
 			"format_comment": "The output format on the Browse Items page"
 		},
 		"numeric": {
-			"numeric": "Číselné",
+			"numeric": "Numeric",
 			"placeholder": "Placeholder",
 			"placeholder_comment": "Enter placeholder text",
 			"localized": "Localized",
@@ -403,7 +403,7 @@
 			"sort_field_comment": "The field to store the sort value in"
 		},
 		"password": {
-			"password": "Heslo",
+			"password": "Password",
 			"hide": "Hide Value",
 			"hide_comment": "Display dots instead of the characters you enter",
 			"placeholder": "Placeholder",
@@ -421,22 +421,22 @@
 			"preview_item": "Preview this item"
 		},
 		"primary-key": {
-			"primary_key": "Primární klíč",
+			"primary_key": "Primary Key",
 			"immutable": "Can not be changed",
 			"monospace": "Monospace",
 			"monospace_comment": "Use a monospace font"
 		},
 		"radio-buttons": {
 			"radio": "Radio Buttons",
-			"choices": "Volby",
-			"choices_comment": "Zadejte hodnoty JSON s uloženou hodnotou a zobrazeným textem.",
+			"choices": "Choices",
+			"choices_comment": "Enter JSON key value pairs with the saved value and text displayed.",
 			"option": "Option",
 			"format": "Browse Format",
 			"format_comment": "The output format on the Browse Items page"
 		},
 		"rating": {
 			"rating": "Rating",
-			"value": "Hodnota",
+			"value": "Value",
 			"active_color": "Active Color",
 			"active_color_comment": "Active color of selected stars",
 			"max_stars": "Max Stars",
@@ -449,7 +449,7 @@
 			"template": "Display Template",
 			"template_comment": "How to format value on the item browse display and inline preview",
 			"template_placeholder": "{{title}} — ({{author}})",
-			"fields": "Sloupce",
+			"fields": "Fields",
 			"fields_comment": "What fields to show in each repeated row",
 			"limit": "Limit",
 			"limit_comment": "Maximum amount of rows the user can add",
@@ -487,10 +487,10 @@
 			"only_on_create_comment": "Allow the slug to be edited only when creating a new item"
 		},
 		"sort": {
-			"sort": "Řazení"
+			"sort": "Sort"
 		},
 		"status": {
-			"status": "Stav",
+			"status": "Status",
 			"status_mapping": "Status Mapping",
 			"status_mapping_comment": "Enter JSON status options",
 			"simple_badge": "Simple Badge",
@@ -501,7 +501,7 @@
 			"deleted": "Deleted"
 		},
 		"tags": {
-			"tags": "Štítky",
+			"tags": "Tags",
 			"alphabetize": "Alphabetize tags",
 			"alphabetize_comment": "Will rearrange tags to be alphabetical",
 			"lowercase": "Force Lowercase",
@@ -517,7 +517,7 @@
 			"icon_left_comment": "Choose an optional icon to display on the left of the input",
 			"icon_right": "Icon Right",
 			"icon_right_comment": "Choose an optional icon to display on the right of the input",
-			"validation": "Validace",
+			"validation": "Validation",
 			"validation_comment": "A RegEx to check each individual value against",
 			"validation_message": "Validation Message",
 			"validation_message_comment": "A short message to show users if tag validation fails",
@@ -586,7 +586,7 @@
 			"color-active-comment": "Choose the active color"
 		},
 		"translation": {
-			"translation": "Překlad",
+			"translation": "Translation",
 			"language_field": "Language Field",
 			"language_field_comment": "The field that holds the language code in the related collection",
 			"languages": "Languages",
@@ -597,16 +597,16 @@
 		"user": {
 			"user": "User",
 			"avatar": "Avatar",
-			"name": "Jméno",
+			"name": "Name",
 			"template": "Template",
 			"template_comment": "How to format the users in the dropdown",
 			"placeholder": "Placeholder",
 			"placeholder_comment": "Add a placeholder"
 		},
 		"owner": {
-			"owner": "Vlastník",
+			"owner": "Owner",
 			"avatar": "Avatar",
-			"name": "Jméno",
+			"name": "Name",
 			"template": "Template",
 			"template_comment": "How to display the user on the item detail page",
 			"display": "Display",
@@ -617,14 +617,14 @@
 		"user-roles": {
 			"user-roles": "User Role",
 			"choose_role": "Choose a role...",
-			"relational": "Relační",
+			"relational": "Relational",
 			"relational_comment": "Save as a relational record",
 			"show_public": "Show public role"
 		},
 		"user-updated": {
 			"user_updated": "User Updated",
 			"avatar": "Avatar",
-			"name": "Jméno",
+			"name": "Name",
 			"template": "Template",
 			"template_comment": "How to display the user on the item detail page",
 			"display": "Display",
